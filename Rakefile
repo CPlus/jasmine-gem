@@ -36,7 +36,7 @@ namespace :jeweler do
   begin
     require "jeweler"
     Jeweler::Tasks.new do |gemspec|
-      gemspec.name = "jasmine"
+      gemspec.name = "headshift-jasmine"
       gemspec.summary = "Jasmine Runner for Ruby"
       gemspec.description = "Javascript BDD test framework"
       gemspec.email = "ragaskar@gmail.com"

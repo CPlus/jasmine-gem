@@ -7,7 +7,7 @@ Jasmine Gem dynamically serves and runs suites for [Jasmine](http://github.com/p
 
 To use with bundler:
 
-`gem 'jasmine', :git => 'http://github.com/junius/jasmine-gem.git'`
+`gem 'headshift-jasmine'`
 
 Post-installation:
 
