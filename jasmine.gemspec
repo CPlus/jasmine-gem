@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{jasmine}
-  s.version = "0.11.1.0"
+  s.version = "0.11.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Rajan Agaskar", "Christian Williams"]
@@ -42,9 +42,10 @@ Gem::Specification.new do |s|
      "lib/jasmine/selenium_driver.rb",
      "lib/jasmine/server.rb",
      "lib/jasmine/spec_builder.rb",
-     "lib/jasmine/tasks/jasmine.rake"
+     "rails",
+     "tasks/jasmine.rake"
   ]
-  s.homepage = %q{http://github.com/pivotal/jasmine-ruby}
+  s.homepage = %q{http://github.com/Junius/jasmine-gem}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}

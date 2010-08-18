@@ -1,19 +1,17 @@
 jasmine-gem
 ============
 
+This Headshift fork alters location of rake tasks to fit in with the way we require rake files.
+
 Jasmine Gem dynamically serves and runs suites for [Jasmine](http://github.com/pivotal/jasmine).
 
-To use:
+To use with bundler:
 
-`gem install jasmine`
+`gem 'jasmine', :git => 'http://github.com/junius/jasmine-gem.git'`
 
 Post-installation:
 
-For Rails2 support, use
-
-`script/generate jasmine`
-
-For Rails3 support, use
+For the bundled version, use
 
 `bundle exec jasmine init`
 
